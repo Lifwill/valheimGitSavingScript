@@ -9,9 +9,10 @@ As it seems that the world is fully defined by some files, I got the idea that w
 In the case where two users are connected in the same time, the world should be hosted by the most recent one, the one already online. If no one is online yet, then just define who will be the main user.
 
 ## Requirements
-  1) The game Valheim
+  1) The game Valheim installed
   2) A git account
   3) The git tool installed on the machine, the git command should be accessible from the terminal
+  4) A git repository for Valheim saves
 
 ## Properties
   1) The git repository url
