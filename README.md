@@ -20,7 +20,7 @@ In the case where two users are connected in the same time, the world should be 
   1) Connect to git and pull the last version or initialize the repository with last version
   2) Launch the game
   3) Pull to check if the game is still running
-  4) When the game stop, commit world changes to git.
+  4) When the game stops, commit world changes to git.
 
 ## Configuration
 You have to setup some data to make it work
