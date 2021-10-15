@@ -12,10 +12,9 @@ In the case where two users are connected in the same time, the world should be 
   1) The game Valheim installed
   2) A git account
   3) The git tool installed on the machine, the git command should be accessible from the terminal
-  4) The git email and name set 
-    4.1) git config --global user.email "myemail@address.com"
-    4.1) git config --global user.name "Firstname lastname"
-  5) A git repository for Valheim saves
+  4) The git email set ( git config --global user.email "myemail@address.com")
+  5) The git username set ( git config --global user.name "Firstname lastname")
+  6) A git repository for Valheim saves
 
 ## Properties
   1) The git repository url
