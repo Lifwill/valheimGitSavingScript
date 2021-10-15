@@ -16,6 +16,13 @@ In the case where two users are connected in the same time, the world should be 
   5) The git username set ( git config --global user.name "Firstname lastname")
   6) A git repository for Valheim saves
 
-## Properties
+## Configuration
+You have to setup some data to make it work
   1) The git repository url
-  2) The prefix of shared world ( "shared" by default)
+  2) The id of the steam game (check in the shortcut, the url contains the id)
+
+You may need to some path to folders, but if you didn't modify it, it should be the default ones.
+
+By default, there is a prefix to worlds name that will be shared. The prefix is simply "shared". 
+Please take note that if you want to share a world, the name must start with the prefix (the default one or another if you modified it)
+You should also synchronize with the team to ensure that you have the same prefix.
