@@ -4,18 +4,20 @@
 REM TO BE set : ---------------------------------------------------------------------------------
 rem The git repo is the url of the git repositiory that will be clone. Please enter the correct value
 set gitrepo=
+rem the id of the game valheim. Please check the shortcut, the url contains the game id
+set gameId=
 
 REM TO BE CHANGED IF DIFFERENT : -------------------------------------------------------------------------
 rem The folder where is the executable from valheim
 set steamPath="C:\Program Files (x86)\Steam"
 REM the path where the world are saved, the value %username% is automatically inserted
 set worldsPath=C:\Users\%USERNAME%\AppData\LocalLow\IronGate\Valheim\worlds\
-rem the id of the game valheim. Please check the shortcut, the url contains the game id
-set gameId=
 
 REM PREFERENCES : ---------------------------------------------------------------------------------
 REM This is the prefix of the list of world that will be updated. Avoid to commit your private worlds
 set sharedPrefix="shared"
+
+REM Do not modify anything below
 
 rem GO in the world folder to create or update git
 cd "%worldsPath%"
