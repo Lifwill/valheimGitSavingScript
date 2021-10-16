@@ -16,6 +16,12 @@ In the case where two users are connected in the same time, the world should be 
   5) The git username set ( git config --global user.name "Firstname lastname")
   6) A git repository for Valheim saves
 
+## The script action
+  1) Connect to git and pull the last version or initialize the repository with last version
+  2) Launch the game
+  3) Pull to check if the game is still running
+  4) When the game stops, commit world changes to git.
+
 ## Configuration
 You have to setup some data to make it work
   1) The git repository url
