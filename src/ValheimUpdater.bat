@@ -3,9 +3,9 @@
 
 REM TO BE set : ---------------------------------------------------------------------------------
 rem The git repo is the url of the git repositiory that will be clone. Please enter the correct value
-set gitrepo=
+set gitrepo=https://github.com/Lifwill/valheim_save.git
 rem the id of the game valheim. Please check the shortcut, the url contains the game id
-set gameId=
+set gameId=892970
 
 REM TO BE CHANGED IF DIFFERENT : -------------------------------------------------------------------------
 rem The folder where is the executable from valheim
@@ -37,7 +37,7 @@ if exist .git\ (
 
 rem Start valheim using steam, if there is another way of starting valheim, update the following lines
 cd %steamPath%
-steam steam://rungameid/%gameId%
+start steam steam://rungameid/%gameId%
 
 rem wait 30 seconds to ensure that Valheim have started
 timeout 30
